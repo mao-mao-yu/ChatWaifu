@@ -119,26 +119,8 @@ class CreateAudio:
 
 
 if __name__ == '__main__':
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument("--text", default=None, required=True)
-    # # parser.add_argument("--model_path", default=r"H:\pyproj\drive\MyDrive\paimon\G_78000.pth")
-    # parser.add_argument("--model_path", default=r"H:\pyproj\drive\MyDrive\paimon\G_80000.pth")
-    # # parser.add_argument("--model_path", default=r"H:\pyproj\drive\MyDrive\paimon_32\G_60000.pth")
-    # parser.add_argument("--config_path", default=r"H:\pyproj\vits\model\paimon\config.json")
-    # args = parser.parse_args()
-    # # MODEL_PATH = args.model_path
-    # # CONFIG_PATH = args.config_path
-
-    # MODEL_PATH = r"H:\pyproj\drive\MyDrive\paimons\G_436000.pth"
     CONFIG_PATH = r"H:\pyproj\drive\MyDrive\paimons_checkpoint\config.json"
     MODEL_PATH = r"H:\pyproj\drive\MyDrive\paimons_checkpoint\G_317000.pth"
-    # MODEL_PATH = r"H:\pyproj\drive\MyDrive\zaoyou\G_237000.pth"
-    # CONFIG_PATH = r"H:\pyproj\drive\MyDrive\paimons_checkpoint\config.json"
-    # CONFIG_PATH = r"H:\pyproj\drive\MyDrive\zaoyou\config.json"
-
-    # MODEL_PATH = r"H:\pyproj\drive\MyDrive\ganyu\G_309000.pth"
-    # CONFIG_PATH = r"H:\pyproj\drive\MyDrive\ganyu\config.json"
-    # c = CreateAudio(MODEL_PATH, CONFIG_PATH, model_type=False)
 
     c = CreateAudio(MODEL_PATH, CONFIG_PATH, model_type=False)  # 多人模型需要指定为False
     audio_path = c.speak(text="起床了起床了，现在还没起床的都是懒狗", speaker_index=0)
