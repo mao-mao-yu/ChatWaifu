@@ -1,7 +1,7 @@
 # This project use VITS AND GPT3.5 API  
-Add auto symbols use config. Just add your symbols to text/symbols/symbols_dic.
+Add auto symbols use config. Just add your symbols to text/symbols/symbols_dic.  
 Have genshinn impact tools to create train data auto.  
-添加了Symbols的自动识别，不用再每次手动修改，可以往symbols_dic里添加你需要使用的symbols就可以自动使用Config里的symbols了。
+添加了Symbols的自动识别，不用再每次手动修改，可以往symbols_dic里添加你需要使用的symbols就可以自动使用Config里的symbols了。  
 还有原神数据预处理小工具，能通过角色数据json dict自动查找文件夹里的声音数据并进行转换。
 # How to use
 (Suggestion) Python == 3.7
