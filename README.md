@@ -1,4 +1,4 @@
-# This project use VITS AND GPT3.5 API  
+# This project use VITS and GPT3.5 API  
 Add auto symbols use config. Just add your symbols to text/symbols/symbols_dic.  
 Have genshinn impact tools to create train data auto.  
 添加了Symbols的自动识别，不用再每次手动修改，可以往symbols_dic里添加你需要使用的symbols就可以自动使用Config里的symbols了。  
