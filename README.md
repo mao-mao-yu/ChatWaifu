@@ -6,4 +6,5 @@ Have genshinn impact tools to create train data auto.
 
 ## 使用方法
 启动chatbot_UI.py  
-如果想自己训练原神角色请参考Github另一个项目 下载原神数据json并下载声音数据，如果声音数据不全请自己下载原神游戏并解压文件。
+如果想自己训练原神角色请参考Github另一个项目https://github.com/w4123/GenshinVoice  
+下载原神json语音文本数据,并下载声音数据，如果声音数据不全请自己下载原神游戏并解压语音文件。
